@@ -164,12 +164,15 @@ const Hero = () => {
               Unleash the Play Economy
             </p>
 
-            <Button
-              id="watch-trailer"
-              title="Watch Trailer"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
-            />
+            <a href="https://www.youtube.com/watch?v=x1_-btXPWpc"target="_blank">
+              <Button
+                id="watch-trailer"
+                title="Watch Trailer"
+                leftIcon={<TiLocationArrow />}
+                containerClass="bg-yellow-300 flex-center gap-1"
+              />
+            </a>
+
           </div>
         </div>
       </div>
